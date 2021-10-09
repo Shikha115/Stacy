@@ -1,0 +1,241 @@
+/*!
+ * Bootstrap v4.3.1 (https://getbootstrap.com/)
+ * Copyright 2011-2019 The Bootstrap Authors
+ * Copyright 2011-2019 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+
+/* approach-carousel-sheet */
+
+.ftco-section {
+    padding-bottom: 100px;
+}
+
+.ftco-no-pt {
+    padding-top: 0;
+}
+
+.ftco-no-pb {
+    padding-bottom: 0;
+}
+
+
+/* .heading-section {
+  font-size: 28px;
+  color: #000; } */
+
+.img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+a.btn {
+    padding: 8px 28px;
+    text-transform: capitalize;
+    font-size: 17px;
+    background-color: #638A66;
+    border-color: #638A66;
+    color: #fff;
+    border-radius: 0px;
+    transition: all 0.5s ease;
+}
+
+a.btn:hover {
+    background-color: transparent;
+    border-color: #638A66;
+    color: #638A66;
+    transition: all 0.5s ease;
+}
+
+.featured-carousel.owl-carousel {
+    position: relative;
+}
+
+.featured-carousel.owl-carousel .owl-item {
+    opacity: 1;
+}
+
+.featured-carousel.owl-carousel .owl-item.active {
+    opacity: 1;
+}
+
+.featured-carousel.owl-carousel .owl-nav {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+
+.featured-carousel.owl-carousel .owl-nav .owl-prev,
+.featured-carousel.owl-carousel .owl-nav .owl-next {
+    position: absolute;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    margin-top: -10px;
+    color: rgba(0, 0, 0, 0.1) !important;
+    -webkit-transition: 0.7s;
+    -o-transition: 0.7s;
+    transition: 0.7s;
+    opacity: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .featured-carousel.owl-carousel .owl-nav .owl-prev,
+    .featured-carousel.owl-carousel .owl-nav .owl-next {
+        -webkit-transition: none;
+        -o-transition: none;
+        transition: none;
+    }
+}
+
+.featured-carousel.owl-carousel .owl-nav .owl-prev i:before,
+.featured-carousel.owl-carousel .owl-nav .owl-next i:before {
+    font-size: 30px;
+}
+
+.featured-carousel.owl-carousel .owl-nav .owl-prev i,
+.featured-carousel.owl-carousel .owl-nav .owl-next i {
+    color: #343a40a4;
+}
+
+.featured-carousel.owl-carousel .owl-nav .owl-prev {
+    left: 0;
+}
+
+.featured-carousel.owl-carousel .owl-nav .owl-next {
+    right: 0;
+}
+
+.featured-carousel.owl-carousel .owl-dots {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.featured-carousel.owl-carousel .owl-dots .owl-dot {
+    display: none;
+    width: 10px;
+    height: 10px;
+    margin: 5px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.featured-carousel.owl-carousel .owl-dots .owl-dot:hover,
+.featured-carousel.owl-carousel .owl-dots .owl-dot:focus {
+    outline: none !important;
+}
+
+.featured-carousel.owl-carousel .owl-dots .owl-dot.active {
+    background: #62b9a2;
+}
+
+.featured-carousel.owl-carousel:hover .owl-nav .owl-prev,
+.featured-carousel.owl-carousel:hover .owl-nav .owl-next {
+    opacity: 1;
+}
+
+.featured-carousel.owl-carousel:hover .owl-nav .owl-prev {
+    left: -25px;
+}
+
+.featured-carousel.owl-carousel:hover .owl-nav .owl-next {
+    right: -25px;
+}
+
+.featured-carousel.owl-carousel.owl-drag .owl-item {
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+}
+
+.block-20 {
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 275px;
+    position: relative;
+    display: block;
+}
+
+.blog-entry {
+    width: 100%;
+    background: #fff;
+}
+
+.blog-entry .text {
+    position: relative;
+    border-top: 0;
+    border-radius: 2px;
+}
+
+.blog-entry .text .heading {
+    font-size: 20px;
+    margin-bottom: 16px;
+    font-weight: 600;
+}
+
+.blog-entry .text .heading a {
+    color: #000;
+}
+
+.blog-entry .text .heading a:hover,
+.blog-entry .text .heading a:focus,
+.blog-entry .text .heading a:active {
+    color: #62b9a2;
+    transition: all 0.5s ease;
+}
+
+.blog-entry .text .meta-chat {
+    color: #b3b3b3;
+}
+
+.blog-entry .text .read {
+    color: #000;
+    font-size: 14px;
+}
+
+.blog-entry .meta-date {
+    display: inline-block;
+    background: #343a40;
+}
+
+.blog-entry .meta-date span {
+    display: block;
+    color: #fff;
+}
+
+.blog-entry .meta-date .day {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.blog-entry .meta-date .mos,
+.blog-entry .meta-date .yr {
+    font-size: 13px;
+}
+
+.blog-entry .meta>div {
+    display: block;
+    margin-right: 5px;
+    margin-bottom: 0px;
+    font-size: 15px;
+}
+
+.blog-entry .meta>div a {
+    color: #b3b3b3;
+    font-size: 13px;
+}
+
+.blog-entry .meta>div a:hover {
+    color: #cccccc;
+}
+
+.blog-entry .meta2 a {
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: rgba(0, 0, 0, 0.4);
+}
